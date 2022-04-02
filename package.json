@@ -1,0 +1,37 @@
+{
+  "name": "nexxplay-react",
+  "version": "1.0.0",
+  "description": "The nexxPLAY Wrapper for React",
+  "keywords": [
+    "3q",
+    "3q nexx",
+    "nexxPLAY",
+    "nexxtv",
+    "omnia"
+  ],
+  "browser": "dist/index.js",
+  "homepage": "https://play.docs.nexx.cloud/",
+  "author": "3Q nexx GmbH",
+  "license": "ISC",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "eslint": "eslint ./src",
+    "eslint:fix": "eslint --fix ./src"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "^8.12.0",
+    "eslint-plugin-react": "^7.29.4",
+    "react": ">=16.3.0",
+    "rimraf": "^3.0.2"
+  }
+}
