@@ -16,7 +16,7 @@ const supportedStreamtypes={
 class NexxPLAY extends NexxBase{
 
 	constructor(props){
-		super(props,['delay','autoPlay','dataMode','exitMode','disableAds','streamingFilter','consentString'],'play');
+		super(props,['delay','autoPlay','dataMode','menuMode','exitMode','disableAds','streamingFilter','consentString'],'play');
 
 		if(this.props.streamtype){
 			if(Object.values(supportedStreamtypes).includes(this.props.streamtype)){

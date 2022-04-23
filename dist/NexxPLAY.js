@@ -91,7 +91,7 @@ var NexxPLAY = /*#__PURE__*/function (_NexxBase) {
 
     _classCallCheck(this, NexxPLAY);
 
-    _this = _super.call(this, props, ['delay', 'autoPlay', 'dataMode', 'exitMode', 'disableAds', 'streamingFilter', 'consentString'], 'play');
+    _this = _super.call(this, props, ['delay', 'autoPlay', 'dataMode', 'menuMode', 'exitMode', 'disableAds', 'streamingFilter', 'consentString'], 'play');
 
     _classPrivateMethodInitSpec(_assertThisInitialized(_this), _playbackControl);
 
