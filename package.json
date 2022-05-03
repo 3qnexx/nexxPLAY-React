@@ -1,6 +1,6 @@
 {
   "name": "nexxplay-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The nexxPLAY Wrapper for React",
   "keywords": [
     "3q",
@@ -19,12 +19,12 @@
     "eslint:fix": "eslint --fix ./src"
   },
   "peerDependencies": {
-    "react": ">=16.3.0"
+    "react": ">=18.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-syntax-jsx": "^7.16.7",
     "@babel/polyfill": "^7.12.1",

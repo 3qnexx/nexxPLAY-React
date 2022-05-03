@@ -34,6 +34,7 @@ class NexxBase extends React.Component{
 		this.usedHost=(this.config.protocol+"://")+host;
 
 		acceptedOverrides.push('language');
+		acceptedOverrides.push('direction');
 		acceptedOverrides.push('affiliateCode');
 
 		if((this.props.hasOwnProperty("params"))&&(typeof(this.props.params)=="object")){
