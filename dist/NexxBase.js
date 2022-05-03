@@ -148,6 +148,7 @@ var NexxBase = /*#__PURE__*/function (_React$Component) {
 
     _this.usedHost = _this.config.protocol + "://" + host;
     acceptedOverrides.push('language');
+    acceptedOverrides.push('direction');
     acceptedOverrides.push('affiliateCode');
 
     if (_this.props.hasOwnProperty("params") && _typeof(_this.props.params) == "object") {
