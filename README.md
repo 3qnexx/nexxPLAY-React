@@ -12,18 +12,15 @@ $ npm install nexxplay-react
 ```
 
 ```javascript
-import React from 'react';
 import {NexxPLAY} from "nexxplay-react";
 
-class test extends React.Component{
+export default function PlayerTest{
 
-	render(){
-		return (
-			<div style={{width:"640px",height:"320px"}}>
-				<NexxPLAY domain="999" mediaHash="ABCDEFG" streamtype="video" params="{{autoPlay:0}}" />
-			</div>
-		);
-	}
+  return (
+    <div style={{width:"640px",height:"320px"}}>
+      <NexxPLAY domain="999" mediaHash="ABCDEFG" streamtype="video" params="{{autoPlay:0}}" />
+    </div>
+  );
 
 }
 ```
